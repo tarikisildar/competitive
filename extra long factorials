@@ -1,0 +1,9 @@
+import sys
+import math
+def extraLongFactorials(n):
+    print(math.factorial(n))
+
+if __name__ == "__main__":
+    n = int(input().strip())
+    extraLongFactorials(n)
+# https://www.hackerrank.com/challenges/extra-long-factorials/submissions/code/63945461 
